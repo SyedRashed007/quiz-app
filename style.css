@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Audiowide', cursive;
+    margin: 0;
+    background-color: #ADA996;
+    background-image: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #ADA996;
+    border: none;
+    font-family: 'Audiowide', cursive;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+}
+
+button:hover {
+    background-color: #9b9994;
+}
+
+button:focus{
+    background-color:  #807d7d;
+    outline: none;
+}
+
+#time {
+    text-align: right;
+}
+
